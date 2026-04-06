@@ -1,0 +1,36 @@
+# 🔹 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Ambientes virtuais
+venv/
+.env/
+.env
+
+# 🔹 VSCode
+.vscode/
+
+# 🔹 Logs
+*.log
+
+# 🔹 Arquivos temporários
+*.tmp
+*.temp
+
+# 🔹 Coverage / testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🔹 Distribuição / build
+build/
+dist/
+*.egg-info/
+
+# 🔹 Jupyter (se usar futuramente)
+.ipynb_checkpoints/
+
+# 🔹 Sistema operacional
+.DS_Store
+Thumbs.db
