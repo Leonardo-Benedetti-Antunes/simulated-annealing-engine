@@ -1,12 +1,7 @@
 class CostCalculator:
 
-    def __init__(self, constraints):
-        self.constraints = constraints
+    def __init__(self, layers):
+        self.layers = layers
 
     def calculate(self, solution):
-        total_cost = 0
-
-        for constraint in self.constraints:
-            total_cost += constraint.evaluate(solution)
-
-        return total_cost
+        return sum(layer.evaluate(solution) for layer in self.layers)
